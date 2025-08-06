@@ -1,19 +1,15 @@
 
-const Header = ({destructuredProp}) => {
-    const headerStyle = {
-            backgroundColor: 'royalblue',
-            color: '#fff'
-        };
+const Header = ({title}) => {
+
     return (
-        <header style={headerStyle}
-                /* style={{
-            backgroundColor: 'mediumblue',
-            color: '#fff'
-        }} */>
-            <h1>List of Contents</h1>
+        <header>
+            <h1>{title}</h1>
         </header>
     )
 }
 
+Header.defaultProps = {
+    title : "Default Title"
+}
 
-export default Header
+export default Header;
