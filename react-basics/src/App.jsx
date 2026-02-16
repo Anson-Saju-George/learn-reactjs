@@ -3,6 +3,15 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Sidebar from './components/Sidebar'
 
+import avatar from './avatar.png' ;
+
+function Logo(props){
+  const userPic = <img src={avatar} alt="User Avatar" />;
+  return userPic;
+}
+
+
+
 function App() {
   return (
     <>
