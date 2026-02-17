@@ -2,6 +2,7 @@
 import './App.css'
 
 import Btn from './ui/Btn'
+import ModeToggle from './functions/ModeToggler'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <h1>Data and States</h1>
       <Btn />
+      <ModeToggle />
     </>
   )
 }
